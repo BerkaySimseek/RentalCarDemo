@@ -15,7 +15,7 @@ namespace ConsoleIU
 
             Rental secondRental = new Rental
             {
-                CarId = 1, CustomerId = 1, RentDate = 15-03-2021 , RentId = 3
+                CarId = 1, CustomerId = 1, RentDate = new DateTime(2021,3,15), RentId = 3
             };
 
             rentalManager.Add(secondRental);
