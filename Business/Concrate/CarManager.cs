@@ -26,7 +26,7 @@ namespace Business.Concrate
 
         public IDataResult<Car> GetById(int id)
         {
-            return new ErrorDataResult<Car>(_carDal.Get(c => c.CarId == id));
+            return new SuccessDataResult<Car>(_carDal.Get(c => c.CarId == id));
         }
 
         public IResult Add(Car car)
